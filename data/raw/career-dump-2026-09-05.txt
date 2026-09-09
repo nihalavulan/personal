@@ -1,0 +1,1523 @@
+============================================================
+PORTFOLIO DATABRAIN — RAW PROJECT / CAREER INFORMATION
+============================================================
+
+PURPOSE
+- This is raw information about my career, projects, responsibilities,
+  problem-solving approaches, technical work, product thinking, and outcomes.
+- This is NOT the final portfolio copy.
+- Do not optimize it for a website yet.
+- Later, this data can be transformed into concise visual case studies.
+- The core portfolio direction should focus on:
+  - What was the problem?
+  - Who had the problem?
+  - How did I understand the problem?
+  - What approach did I take?
+  - Why did I choose that approach?
+  - What did I actually build/do?
+  - What was the result?
+  - What technical/product trade-offs did I make?
+- The portfolio should NOT simply be a list of technologies I know.
+
+
+============================================================
+CAREER TIMELINE
+============================================================
+
+- March 2022: Joined Mapout.
+- Worked at Mapout for almost 3 years.
+- Role: Full Stack Developer.
+- After leaving Mapout: Built my own startup/product called GroupyGo.
+- Worked on GroupyGo for approximately 1 year.
+- After GroupyGo: Worked on contract projects for different companies
+  for approximately 6 months.
+- Current timeline: September 2026.
+
+Major career phases:
+
+1. Mapout
+   - Employment / full-time role
+   - ~3 years
+
+2. GroupyGo
+   - Own startup/product
+   - ~1 year
+
+3. Contract projects
+   - Client/problem-driven work
+   - ~6 months
+
+The contract projects are different from Mapout and GroupyGo:
+- A client brings a problem or requirement.
+- I understand the actual problem.
+- I figure out how to implement a solution.
+- I iterate with the client.
+- I show the output and improve it.
+- The focus is on solving the problem efficiently rather than
+  simply following a predefined technical specification.
+
+
+============================================================
+MAPOUT
+============================================================
+
+TYPE
+- Full-time employment.
+- Worked there for almost 3 years.
+
+ROLE
+- Initially joined as a Full Stack Developer.
+- Worked across frontend, backend, and existing projects.
+- The tech team was small, around 10–11 people including tech.
+- Because of the small team, responsibilities were broad.
+- I had to work across different areas instead of being restricted
+  to one specific role.
+- As the company understood my capabilities, I received more ownership.
+- Eventually independently handled:
+  - meet.mapout.com
+  - employer.mapout.com
+- Main focus became frontend, but I also handled backend development
+  for the platforms I owned.
+
+COMPANY / PRODUCT
+- Mapout was a platform connecting:
+  - Mentors
+  - Mentees/students
+  - Employers
+- The platform focused on helping students understand their
+  career interests, skills, and possible career paths.
+- It also provided mentor connections and employer/talent functionality.
+
+
+------------------------------
+CAREER / TALENT ASSESSMENT
+------------------------------
+
+- Mapout had a psychological/behavioral assessment system.
+- There was a custom algorithmic quiz.
+- Students answered around 20 questions.
+- The results were used to understand:
+  - Career interests
+  - Behavioral patterns
+  - Skills/career compatibility
+- The system generated approximately 15 career recommendations.
+- Recommendations were based on the student's interest and behavior pattern.
+- I worked on the logic behind the testing/assessment system.
+- I also worked on the frontend implementation.
+
+
+------------------------------
+MENTOR-MENTEE PLATFORM
+------------------------------
+
+- Students/mentees could connect with mentors.
+- Mentors could manage/interact with their mentees.
+- The platform had functionality specifically designed around
+  mentor-mentee relationships.
+- This included meetings, tasks/action projects, and other
+  mentoring-related workflows.
+
+
+------------------------------
+MEET.MAPOUT.COM
+------------------------------
+
+- I handled meet.mapout.com independently.
+- It was a custom video-calling platform for mentor-mentee meetings.
+- Similar concept to Google Meet, but designed specifically
+  for Mapout's mentor-mentee workflow.
+- The platform was not just generic video calling.
+- It included customized mentoring features.
+
+Features:
+- Mentor could see details about mentees.
+- Mentor could assign action projects/tasks to mentees
+  between meetings.
+- Customized workflow around mentor-mentee interactions.
+- Video meetings.
+- Other functionality around the mentoring process.
+
+OWNERSHIP:
+- Handled both frontend and backend.
+- Independently responsible for the platform.
+- There was another backend developer working across other
+  modules/services in the broader system.
+
+TECH:
+- TypeScript
+- Twilio SDK
+- Frontend + backend
+
+Twilio:
+- Used Twilio SDK for video calling.
+
+USAGE:
+- The platform was functional.
+- It had a relatively small user base.
+- It was also used internally.
+
+
+------------------------------
+EMPLOYER.MAPOUT.COM
+------------------------------
+
+- I independently handled employer.mapout.com.
+- This was the employer-facing side of Mapout.
+
+Employer functionality:
+- Detailed employer onboarding.
+- Talent pool management.
+- Employers could manage candidates/students.
+- Employers could interview students through the platform.
+
+EMPLOYABILITY SCORE:
+- Each student had an employability score.
+- The system evaluated the student's Mapout profile against
+  an employer's Job Description (JD).
+- It generated a percentage-based matchability/employability score.
+- The score represented how well the student matched the employer/job.
+
+JOB EXPERIENCE / ACCELERATOR-STYLE PROGRAM:
+- There was a smaller program where students could experience
+  a job role and understand what the actual work would be like.
+- It was similar to a small accelerator/job-experience program.
+
+OWNERSHIP:
+- Independently handled employer.mapout.com.
+- Handled both frontend and backend.
+- Main personal focus was frontend, but responsibility included
+  full-stack implementation.
+
+
+------------------------------
+STUDENT MOBILE / AI LEARNING
+------------------------------
+
+- Worked with React Native on the student mobile application.
+- Students could find jobs through the app.
+
+AI LEARNING FEATURE:
+- Used OpenAI LLM APIs.
+- Student could enter a topic/subject they wanted to learn.
+- AI generated a structured learning/action plan.
+- Plans could be approximately:
+  - 30 days
+  - 60 days
+
+The system would gather relevant learning material such as:
+- YouTube content
+- Text/content
+- Projects
+- Other learning resources
+
+Goal:
+- Give students a structured learning journey.
+- Keep students engaged.
+- Encourage them to spend time learning inside the app.
+
+Engagement features:
+- Learning resources
+- Projects/actions
+- Interesting facts
+- Content presented in a format similar to Instagram Stories
+- Reminders/notifications
+- Other mechanisms to bring students back to the learning journey
+
+
+------------------------------
+PAYMENTS / INTEGRATIONS
+------------------------------
+
+- Worked on mentor-mentee payment functionality.
+- Worked with payment gateway integrations.
+- Worked across different modules/services.
+- Broader system had different services/modules.
+
+
+------------------------------
+MAPOUT TECH STACK
+------------------------------
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- Next.js
+- React Native
+- TypeScript
+- Twilio SDK
+- OpenAI LLM APIs
+- Payment gateway integrations
+
+Next.js:
+- Used in the admin dashboard.
+
+TypeScript:
+- Specifically used for meet.mapout.com.
+
+
+============================================================
+GROUPYGO
+============================================================
+
+TYPE
+- Own startup/product.
+- Worked on it for approximately 1 year.
+
+IMPORTANT:
+- Correct spelling: GroupyGo.
+
+
+------------------------------
+PROBLEM STATEMENT
+------------------------------
+
+- There is a market among small and medium-sized travel agencies
+  in Kerala around group/consolidated airfares.
+- Different agencies/suppliers have tickets available for
+  different sectors.
+
+Examples:
+- Calicut → Dubai
+- Calicut → Jeddah
+- London
+- Delhi
+- etc.
+
+B2B COMMUNICATION PROBLEM:
+- Travel agencies need to communicate available tickets
+  to other B2B travel agencies.
+- One of their major channels was WhatsApp.
+- Agencies were sending ticket availability/pricing information
+  through WhatsApp groups and broadcasts every day.
+- Information was highly unorganized.
+- Large amounts of ticket information could be spread across
+  many WhatsApp messages/groups.
+- Finding a specific ticket required manually going through
+  messages and information from different sources.
+
+
+------------------------------
+PRODUCT IDEA
+------------------------------
+
+- Created GroupyGo to organize this process.
+- Goal:
+  - Make searching for group/consolidated tickets fast.
+  - Organize scattered ticket information.
+  - Make the existing B2B workflow easier.
+
+Instead of initially building:
+- Website
+- Mobile application
+
+I chose:
+- WhatsApp as the primary interface.
+
+WHY WHATSAPP:
+- Target users were already familiar with WhatsApp.
+- WhatsApp was already a major communication channel
+  for the target market.
+- Users did not need to learn a new platform.
+- Official WhatsApp API provided useful capabilities
+  for building the product.
+
+
+------------------------------
+MVP APPROACH
+------------------------------
+
+- Initially created an MVP.
+- Did not immediately build the complete marketplace.
+- Main goal was to validate:
+  - Whether the problem was real.
+  - Whether agencies would use the system.
+  - Whether WhatsApp could work as the product interface.
+
+Initial infrastructure:
+- Admin panel.
+- Team manually managed ticket/supplier data.
+- Supplier dashboard and other marketplace features
+  were planned for later.
+
+The initial priority was:
+- Validate the problem.
+- Validate usage.
+- Understand actual demand.
+- Avoid building the entire product before validation.
+
+
+------------------------------
+HOW GROUPYGO WORKED
+------------------------------
+
+A travel agency could send a structured WhatsApp message.
+
+Example:
+CCJ DXB JAN 29
+
+The system would:
+1. Receive the WhatsApp request.
+2. Process the sector/date information.
+3. Search available ticket data.
+4. Identify suppliers with matching tickets.
+5. Return matching ticket information.
+
+Response time:
+- Approximately 2 seconds.
+
+WhatsApp:
+- Acted as the product frontend/interface.
+
+Admin panel:
+- Used to manage available ticket data.
+
+
+------------------------------
+VALIDATION / TRACTION
+------------------------------
+
+Pilot:
+- Calicut
+- Malappuram
+- Malabar region
+
+Pilot users:
+- Approximately 50–60 agencies.
+
+Later usage:
+- 300+ agencies using the product.
+- Approximately 300–400 searches per day.
+
+Operation:
+- Product ran for approximately one year.
+
+This demonstrated:
+- Real-world usage.
+- Recurring usage.
+- Actual adoption.
+- Validation of the underlying problem.
+
+
+------------------------------
+PRODUCT DECISIONS
+------------------------------
+
+Decision 1:
+- WhatsApp-first instead of website/app.
+
+Reason:
+- Existing user behavior.
+- Existing communication channel.
+- Familiar interface.
+- Lower adoption friction.
+- Official WhatsApp API capabilities.
+
+Decision 2:
+- MVP instead of complete marketplace.
+
+Reason:
+- Validate problem before building everything.
+
+Decision 3:
+- Admin-managed data initially.
+
+Reason:
+- Faster way to validate the concept.
+- Supplier dashboards could be added later.
+
+
+------------------------------
+GROUPYGO TECH STACK
+------------------------------
+
+- Official WhatsApp API
+- Node.js
+- Express.js
+- MongoDB
+- WhatsApp as frontend/interface
+- Admin panel
+
+
+------------------------------
+OUTCOME
+------------------------------
+
+- 300+ agencies.
+- 300–400 searches/day.
+- Approximately one year of operation.
+- Product eventually shut down.
+
+For portfolio purposes, the important story is:
+- Clear industry problem.
+- Understanding existing user behavior.
+- WhatsApp-first product decision.
+- MVP strategy.
+- Fast validation.
+- Real-world adoption.
+- Product thinking.
+- Efficient technical execution.
+
+
+============================================================
+CAPMYLEAD
+============================================================
+
+TYPE
+- Contract/client project.
+- Travel industry client.
+
+IMPORTANT:
+- Correct spelling: CapMyLead.
+
+
+------------------------------
+CLIENT CONTEXT
+------------------------------
+
+- Client was a travel agent.
+- Existing WhatsApp-based CRM solutions felt too overwhelming.
+- Client wanted a very simple solution.
+- Goal was to create something their sales team could actually
+  use and rely on.
+
+
+------------------------------
+PROBLEM STATEMENT
+------------------------------
+
+- Salespeople communicate with customers through WhatsApp
+  and phone calls.
+- Customers provide important information during calls/chats.
+- Salespeople often do not record the information immediately.
+- Entering information into Excel or another system during
+  a call/chat is inconvenient.
+- Later they may forget to enter it.
+- As a result:
+  - Customer information gets lost.
+  - What the customer said may be forgotten.
+  - Follow-up requirements may be missed.
+  - Customer history is not properly structured.
+- Follow-up process was also not properly organized.
+
+Core problem:
+- Important customer information and follow-up context
+  was getting lost during the sales process.
+
+
+------------------------------
+SOLUTION
+------------------------------
+
+- I designed a simple CRM-like system around the existing
+  behavior of the sales team.
+- Built the application in Flutter.
+- Initial project focused on the app side.
+
+The application could:
+- Capture notifications.
+- Detect phone numbers from notifications.
+- Check whether the number already exists in the database.
+
+If number did not exist:
+- Create a new contact.
+- Store it in the contact database.
+- Add it to the contact list.
+- Generate a lead/contact identifier using a company prefix,
+  lead information, and phone number.
+
+Example:
+- ZL100 + customer phone number.
+
+
+------------------------------
+POPUP / BUBBLE SYSTEM
+------------------------------
+
+- Built a popup/bubble interface that appears above the screen.
+- Clicking the bubble opens a partial/half-screen interface.
+- It does not completely cover WhatsApp.
+- Salesperson can continue using WhatsApp while entering information.
+
+The popup provides:
+- Customer fields.
+- Name.
+- Other information.
+- Notes.
+- Recent contacts.
+
+Recent contacts:
+- Approximately 15 recent contacts shown.
+
+Notes:
+- Salespeople can record what the customer told them.
+
+
+------------------------------
+FOLLOW-UP SYSTEM
+------------------------------
+
+- Built a customizable follow-up system.
+- Salespeople can create their own follow-up sequence.
+
+Example:
+- 7 touch points.
+- 2-day gap between each touch point.
+
+The system tracks:
+- Which leads need follow-up.
+- Which follow-up level/touch point they are currently at.
+
+Morning workflow:
+- Salesperson opens the app.
+- Sees who needs follow-up.
+- Sees what level they are at.
+
+Action:
+- Click one button.
+- Open the relevant WhatsApp chat.
+- Use the relevant data/message required for that follow-up.
+
+
+------------------------------
+PRODUCT THINKING
+------------------------------
+
+- Client specifically did NOT want an overwhelming CRM.
+- Goal was simplicity.
+- Solution was designed around the team's existing WhatsApp workflow.
+- Instead of asking salespeople to separately maintain a CRM,
+  the system captures information around their existing workflow.
+- Popup reduces interruption.
+- Information can be recorded while the customer conversation
+  is happening.
+- Follow-ups are structured without requiring a complicated CRM.
+
+
+------------------------------
+DISTRIBUTION / TECHNICAL DECISION
+------------------------------
+
+- Notification detection + popup/bubble functionality
+  made Play Store distribution more complicated.
+- I clearly communicated this limitation to the client.
+- Client was comfortable with internal APK distribution.
+- Sales team used Android phones.
+- Application could be distributed internally as an APK.
+- This avoided spending unnecessary time/money on Play Store
+  approval/distribution during the initial phase.
+
+Client preference:
+- Avoid expensive official APIs.
+- Avoid unnecessary external tools.
+- Keep the system affordable.
+- Keep the system under their internal control.
+
+IMPORTANT:
+- No official WhatsApp API was used.
+
+
+------------------------------
+TECH STACK
+------------------------------
+
+- Flutter
+- Supabase
+- Android notification detection
+- Android popup/bubble functionality
+- APK-based internal distribution
+- No official WhatsApp API
+
+
+------------------------------
+AI CONTRIBUTION
+------------------------------
+
+AI TAG: 100%
+
+- CapMyLead was completely built using AI-assisted development.
+- Coding/implementation was done completely with AI.
+- My contribution was:
+  - Understanding the client's problem.
+  - Engineering thinking.
+  - Problem-solving.
+  - Deciding what should be built.
+  - Designing the solution/workflow.
+  - Technical/product decisions.
+  - Iterative direction.
+- AI handled the actual coding/implementation.
+
+Do NOT represent this project as traditionally hand-coded by me.
+
+
+============================================================
+PRIME CIRCLE
+============================================================
+
+TYPE
+- Contract/client project.
+
+CLIENT CONTEXT
+- Account/client: Seven Sinan from Instagram.
+- Has followers and lifestyle-blogging experience.
+- Wanted to create a community.
+- Community name: Prime Circle.
+- Needed help understanding how to implement/manage
+  the technology side.
+
+
+------------------------------
+INITIAL APPROACH
+------------------------------
+
+- Helped set up nas.io.
+- nas.io was used for community management and checkout.
+- The goal was to use an existing platform instead of rebuilding
+  the entire community infrastructure.
+
+
+------------------------------
+PROBLEM DISCOVERY
+------------------------------
+
+- Large number of people were reaching the nas.io page/checkout
+  and leaving.
+- More than 800 users were reaching the page and abandoning.
+- Investigated why.
+- Main issue discovered:
+  - Users did not understand the community well enough.
+  - They were being sent too directly to the checkout.
+  - They did not have enough context about the value of Prime Circle.
+
+Users needed to understand:
+- What Prime Circle is.
+- What activities are included.
+- What the community provides.
+- What value they receive.
+- What they are actually joining/purchasing.
+
+
+------------------------------
+PROBLEM STATEMENT
+------------------------------
+
+- Main task was NOT simply "build a website."
+- Main task was:
+  - Reduce checkout abandonment.
+  - Improve the conversion journey.
+  - Communicate the value of the community more clearly.
+
+
+------------------------------
+SOLUTION
+------------------------------
+
+- Created a highly curated landing page for Prime Circle.
+- Built the landing page using Framer.
+- Instead of directly sending users to the nas.io checkout:
+  1. User lands on Prime Circle landing page.
+  2. User understands the community.
+  3. User understands activities and value.
+  4. User is then sent to the nas.io checkout.
+
+The landing page included:
+- Activities.
+- Community information.
+- Value proposition.
+- Important information needed to understand the product.
+
+
+------------------------------
+CONVERSION STRATEGY
+------------------------------
+
+- The central work was conversion strategy and problem solving.
+- Studied the customer behavior.
+- Identified why people were abandoning checkout.
+- Added an information layer before checkout.
+- Designed the landing page around the user's decision-making process.
+- The goal was to increase understanding before asking for payment.
+
+The approach:
+- Do NOT rebuild the community.
+- Use nas.io for community + checkout.
+- Use Framer as a conversion-focused information layer.
+- Solve the actual business problem with the minimum necessary technology.
+
+
+------------------------------
+RESULT
+------------------------------
+
+- More than 800 users had previously been reaching the nas.io
+  page and leaving.
+- Checkout abandonment was reduced by approximately 33%.
+- The system/landing page is still being updated and optimized.
+
+
+------------------------------
+TOOLS
+------------------------------
+
+- nas.io
+  - Community management
+  - Checkout
+
+- Framer
+  - Curated landing page
+  - Conversion-focused presentation
+
+
+------------------------------
+CORE STORY
+------------------------------
+
+- High checkout abandonment.
+- Investigated the customer journey.
+- Identified lack of understanding/value communication.
+- Created a curated landing page.
+- Added it before checkout.
+- Improved conversion.
+- Reduced checkout abandonment by ~33%.
+- Still iterating.
+
+Important:
+- Prime Circle focus = conversion strategy + problem solving.
+- nas.io was the community/checkout platform.
+- Framer was used for the landing page.
+
+
+============================================================
+REPUTUP
+============================================================
+
+TYPE
+- Contract/client project.
+- Worked on it during the initial/MVP stage.
+
+PRODUCT
+- Reputup is a review-management SaaS platform.
+- Businesses can manage their reviews.
+- Reviews can be displayed on their own websites.
+- Reviews are displayed using different widgets.
+
+
+------------------------------
+INITIAL STAGE
+------------------------------
+
+- Worked on Reputup when they were creating their MVP.
+- Worked on the foundation/logic behind the review widget system.
+- Focus was on how to create and integrate review widgets
+  into external websites.
+
+
+------------------------------
+PROBLEM STATEMENT
+------------------------------
+
+Businesses need:
+- A way to display reviews on their websites.
+- Easy integration.
+- Flexible widget formats.
+- Customizable designs/themes.
+
+Technical challenge:
+- The widget is being inserted into websites that I do not control.
+- It should not break the existing website.
+- It needs to work across:
+  - Different layouts.
+  - Different screen sizes.
+  - Mobile.
+  - Responsive designs.
+  - Different themes.
+  - Different website structures.
+
+
+------------------------------
+SOLUTION / IMPLEMENTATION
+------------------------------
+
+- Created the basic logic for generating/displaying review widgets.
+- Created the implementation for integrating reviews into external websites.
+- Designed the foundation around snippet-based integration.
+- Website owner can use a code snippet to add the widget.
+
+Widgets could appear as:
+- Sections.
+- Pop-ups.
+- Different widget formats.
+
+
+------------------------------
+KEY TECHNICAL PROBLEM
+------------------------------
+
+The widget needs to:
+- Work inside external websites.
+- Avoid breaking the host website.
+- Maintain responsive behavior.
+- Work correctly on mobile.
+- Support different themes.
+- Support customization.
+- Avoid conflicts with the host website's styling/design.
+
+
+------------------------------
+DESIGN
+------------------------------
+
+- Worked on the design/appearance of review widgets.
+- Worked on how reviews should visually appear when embedded.
+- Worked on customization of themes.
+- Widgets needed to adapt to different host websites.
+
+
+------------------------------
+INTEGRATION
+------------------------------
+
+- Website owners could use a snippet/code embed.
+- Widget could be added without rebuilding the website.
+- The integration model was designed to make widgets easy
+  for external websites to consume.
+
+
+------------------------------
+OWNERSHIP
+------------------------------
+
+- Worked on the initial foundation of the widget system.
+- Created core logic and implementation.
+- Worked on widget design.
+- Worked on integration behavior.
+- Worked on responsive/mobile behavior.
+- Worked on customization/theme behavior.
+- Focused on solving how an embeddable component can work
+  reliably across different websites.
+
+
+------------------------------
+REFERENCE REPOSITORY
+------------------------------
+
+GitHub:
+https://github.com/nihalavulan/widgetify-sample
+
+- The repository is a public JavaScript project.
+- It uses React/Create React App.
+- It appears to be a sample/reference implementation
+  for widget-related work.
+- It should NOT automatically be treated as the complete
+  production tech stack of Reputup.
+- Exact production tech stack has not yet been fully captured.
+
+Repository information confirms:
+- Repository name: widgetify-sample
+- Language: JavaScript
+- Default branch: main
+- Public repository.
+
+The README indicates the project was bootstrapped with
+Create React App and provides the standard start/test/build
+scripts.
+
+
+============================================================
+TRADIFY
+============================================================
+
+TYPE
+- Contract/client project.
+
+IMPORTANT:
+- Correct spelling: Tradify
+- Spelling: T-R-A-D-I-I-F-Y
+
+
+------------------------------
+PROJECT REQUIREMENT
+------------------------------
+
+- Client provided a design.
+- The design was complex.
+- It contained many pages.
+- Requirement was straightforward:
+  - Convert the provided UI design into HTML.
+  - Produce production-quality HTML implementation.
+
+
+------------------------------
+IMPLEMENTATION
+------------------------------
+
+- Converted the complex UI design into HTML.
+- Approximately 30 pages.
+- Focused on accurate implementation of the provided design.
+- Built it at production quality.
+
+
+------------------------------
+TECH
+------------------------------
+
+- HTML
+- Tailwind CSS
+- Basic Tailwind CSS styling.
+
+
+------------------------------
+PROJECT NATURE
+------------------------------
+
+- This was a straightforward implementation project.
+- Unlike projects such as GroupyGo, Prime Circle, or CapMyLead,
+  the problem-solving scope was more direct.
+- Main responsibility was translating a complex visual design
+  into production-quality frontend code.
+
+
+============================================================
+AEROBIX
+============================================================
+
+TYPE
+- Contract/client project.
+
+CLIENT
+- Aerobix is a fitness clinic based in Malappuram.
+- Correct spelling: Aerobix
+- Spelling: A-E-R-O-B-I-X
+
+
+------------------------------
+BUSINESS CONTEXT
+------------------------------
+
+- Aerobix generates leads through:
+  - Ads
+  - Other marketing channels
+- There is a sales team handling those leads.
+
+Problem was identified in the middle of the funnel.
+
+
+------------------------------
+PROBLEM STATEMENT
+------------------------------
+
+- A large number of leads were coming into the sales team.
+- Leads were not sufficiently filtered.
+- Many leads were not properly qualified.
+- Value proposition was not being communicated properly.
+- Sales team resources were therefore not being used as efficiently
+  as they could be.
+- Leads needed more understanding and qualification before reaching
+  the sales process.
+
+
+------------------------------
+APPROACH
+------------------------------
+
+- Created a landing page.
+- Created a system/process that brings leads through this page.
+- The landing page is designed to help users understand:
+  - The service.
+  - The value proposition.
+  - Their needs.
+  - What Aerobix provides.
+
+Goal:
+- Filter/qualify leads before they reach the sales team.
+- Improve quality of leads.
+- Use sales team resources more efficiently.
+- Improve conversion.
+
+
+------------------------------
+CONTENT / UI THINKING
+------------------------------
+
+- Strong focus on the content and consciousness of every section.
+- UI and content were designed intentionally around the customer.
+- Landing page is not simply a visual website.
+- It acts as part of the sales funnel.
+
+
+------------------------------
+CONVERSION STRATEGY
+------------------------------
+
+Strategies include:
+- Better lead qualification.
+- Better value proposition.
+- Understanding customer needs.
+- Hooking strategies.
+- Lead magnet strategies.
+- Encouraging users to book a call.
+- Structuring the funnel before sales involvement.
+
+The intended funnel:
+Ads / lead generation
+        ↓
+Aerobix landing page
+        ↓
+Understand value / qualify / educate
+        ↓
+Hook / lead magnet
+        ↓
+Book a call
+        ↓
+Sales team
+
+
+------------------------------
+CORE PROBLEM-SOLVING STORY
+------------------------------
+
+- There were already leads.
+- The problem was not simply generating more leads.
+- The problem was lead quality and the middle of the funnel.
+- Created a system to better qualify and educate leads.
+- Improved how sales resources are used.
+- Focused on converting the right leads rather than simply
+  increasing lead volume.
+
+
+============================================================
+MACRO BOWLS
+============================================================
+
+TYPE
+- Contract/client project.
+
+BUSINESS
+- Macro Bowls is a high-protein / healthy food startup.
+
+
+------------------------------
+MY CONTRIBUTIONS
+------------------------------
+
+Three major areas:
+
+1. Lead generation through Meta Ads.
+2. Branding and positioning.
+3. Internal operational automation.
+
+
+------------------------------
+META ADS
+------------------------------
+
+- Worked on generating leads through Meta Ads.
+- Focused on optimizing Meta Ads.
+- Goal was to generate relevant leads/customers.
+
+
+------------------------------
+BRANDING / POSITIONING
+------------------------------
+
+- Worked on the branding and positioning of Macro Bowls.
+- Created the UI.
+- Created branding designs.
+- Worked on product packaging.
+- Worked on overall branding.
+- Worked on social media-related design.
+
+
+------------------------------
+INTERNAL OPERATIONS / TELEGRAM BOT
+------------------------------
+
+- Created an internal Telegram bot.
+- Built using n8n.
+- Google Sheets used as part of the underlying data/operations.
+- Goal was to make internal operations significantly faster.
+- Described internally as making operations approximately 10x faster.
+
+
+------------------------------
+ROLE-BASED TELEGRAM BOT
+------------------------------
+
+The bot had different user roles.
+
+DELIVERY PERSON:
+- Can ask the bot for today's delivery list.
+- Receives delivery list.
+- Receives customer contact numbers.
+- Gets the relevant information needed for deliveries.
+
+CHEF:
+- Can ask for today's cooking requirements.
+- Receives how much quantity needs to be prepared/cooked for the day.
+
+MANAGER:
+- Can ask for current operational information.
+- Receives today's deliveries.
+- Receives financial information.
+- Receives today's revenue/current financial details.
+
+
+------------------------------
+SYSTEM
+------------------------------
+
+Telegram Bot
+      ↓
+n8n automation
+      ↓
+Google Sheets
+      ↓
+Operational data
+
+The goal was to allow team members to retrieve the information
+they need through Telegram instead of manually checking
+multiple sources.
+
+
+------------------------------
+COLLABORATION / CREDIT
+------------------------------
+
+- Shabith KMS also contributed/helped with the project.
+- Credit should be given to Shabith KMS for his contribution.
+
+
+------------------------------
+CORE STORY
+------------------------------
+
+- Food startup needed both customer acquisition and
+  operational efficiency.
+- Worked on Meta Ads for lead generation.
+- Worked on brand identity/positioning and product presentation.
+- Built internal automation around daily operations.
+- Created role-based Telegram access.
+- Connected Telegram + n8n + Google Sheets.
+- Made operational information accessible through simple
+  conversational commands.
+
+
+============================================================
+ONE CHAT
+============================================================
+
+TYPE
+- Personal project.
+- Personal chatting application.
+
+
+------------------------------
+CORE IDEA
+------------------------------
+
+"One Chat, Many Languages."
+
+
+------------------------------
+PROBLEM STATEMENT
+------------------------------
+
+- The idea came from my experience living in Dubai.
+- I was staying in a shared room/flat.
+- Friends/people around me spoke different languages.
+- Examples:
+  - Marathi
+  - Bengali
+  - Iranian/Persian
+  - Syrian/Arabic
+  - Other languages
+  - People from different countries and backgrounds
+
+Problem:
+- People may want to communicate with each other,
+  but language becomes a barrier.
+- A person wants to type in their own language.
+- The other person wants to receive/read it in their own language.
+
+
+------------------------------
+PRODUCT IDEA
+------------------------------
+
+- One Chat allows each person to communicate in their own language.
+- User selects their preferred language.
+- User types in their own language.
+- Recipient receives the message in their own language.
+
+Example:
+
+Person A:
+Malayalam
+       ↓
+Person B:
+English
+
+or
+
+Person A:
+Bengali
+       ↓
+Person B:
+Malayalam
+
+Each person can communicate naturally in their own language.
+
+
+------------------------------
+AI TRANSLATION
+------------------------------
+
+- Google language translation is part of the concept.
+- AI is used to make the translation more natural/context-aware.
+- The goal is NOT just direct word-for-word/blender translation.
+- AI should understand the context and create an optimized
+  chat response in the recipient's language.
+
+Goal:
+- Preserve meaning.
+- Make communication natural.
+- Reduce language barriers.
+- Allow people to speak/write naturally in their own language.
+
+
+------------------------------
+CORE PRODUCT PHILOSOPHY
+------------------------------
+
+- One chat interface.
+- Multiple languages.
+- Each person communicates in their own language.
+- Translation happens in the background.
+- The user does not need to manually translate messages.
+
+
+============================================================
+CROSS-PROJECT PATTERNS
+============================================================
+
+A major recurring pattern across the work:
+
+I tend to start from the actual problem instead of starting
+from a technology.
+
+Examples:
+
+GROUPYGO
+- Problem: Unorganized B2B ticket information.
+- Existing behavior: WhatsApp.
+- Solution: WhatsApp-first MVP.
+- Instead of forcing users onto a new app.
+
+CAPMYLEAD
+- Problem: Salespeople forget customer information/follow-ups.
+- Existing behavior: WhatsApp + calls.
+- Solution: Notification capture + popup + lightweight CRM.
+- Instead of forcing them into a complicated CRM.
+
+PRIME CIRCLE
+- Problem: People reached checkout but did not understand
+  the community.
+- Existing infrastructure: nas.io.
+- Solution: Curated information/conversion layer.
+- Instead of rebuilding the community platform.
+
+AEROBIX
+- Problem: Too many unqualified leads reaching sales.
+- Solution: Improve the middle of the funnel with a landing page,
+  qualification, value communication, hooks and lead magnets.
+- Focus on sales efficiency rather than simply generating more leads.
+
+MACRO BOWLS
+- Problem: Need both customer acquisition and operational efficiency.
+- Solution:
+  - Meta Ads
+  - Branding/positioning
+  - Telegram + n8n + Google Sheets automation.
+
+REPUTUP
+- Problem: Reviews need to be embedded into different websites
+  without breaking existing designs.
+- Solution: Flexible, embeddable widgets using snippets,
+  responsive behavior, themes, and customization.
+
+TRADIFY
+- Problem: Complex visual design needed to become production frontend.
+- Solution: Translate approximately 30 pages into HTML/Tailwind.
+
+
+============================================================
+GENERAL PROBLEM-SOLVING STYLE
+============================================================
+
+Recurring characteristics in my work:
+
+- Start with the actual user/business problem.
+- Understand existing user behavior.
+- Avoid unnecessary rebuilding.
+- Prefer existing platforms/tools when they solve part of the problem.
+- Build an MVP when validation is more important than completeness.
+- Choose technology based on the problem.
+- Focus on reducing friction for users.
+- Think about the entire funnel/workflow rather than just the UI.
+- Comfortable working across frontend and backend.
+- Comfortable integrating third-party APIs/services.
+- Comfortable with automation.
+- Comfortable using AI as an implementation tool.
+- Can independently take ownership of complete modules/products.
+- Work iteratively with clients.
+- Make practical trade-offs based on:
+  - Cost
+  - Speed
+  - User behavior
+  - Adoption
+  - Technical limitations
+  - Business requirements
+
+
+============================================================
+CURRENT PROJECT INDEX
+============================================================
+
+1. MAPOUT
+   Type: Employment
+   Duration: ~3 years
+   Role: Full Stack Developer
+   Main areas:
+   - Career assessment
+   - Algorithmic testing
+   - Mentor/mentee platform
+   - Meet platform
+   - Employer platform
+   - Employability scoring
+   - AI learning
+   - Payments
+   - Full-stack ownership
+
+2. GROUPYGO
+   Type: Own startup
+   Duration: ~1 year
+   Main areas:
+   - Travel industry
+   - Group/consolidated fares
+   - WhatsApp-first MVP
+   - B2B marketplace/search
+   - Problem validation
+   - 300+ agencies
+   - 300–400 searches/day
+
+3. CAPMYLEAD
+   Type: Contract
+   Main areas:
+   - Lead management
+   - WhatsApp workflow
+   - Notification capture
+   - Popup/bubble UI
+   - Lightweight CRM
+   - Follow-up automation
+   - Flutter
+   - Supabase
+   - Android APK distribution
+   - 100% AI-coded/AI-assisted implementation
+
+4. PRIME CIRCLE
+   Type: Contract
+   Main areas:
+   - Community
+   - nas.io
+   - Conversion strategy
+   - Checkout abandonment
+   - Customer behavior analysis
+   - Framer landing page
+   - Value proposition
+   - Conversion optimization
+   - ~33% reduction in checkout abandonment
+
+5. REPUTUP
+   Type: Contract
+   Stage: MVP
+   Main areas:
+   - Review management SaaS
+   - Embeddable widgets
+   - Snippet integration
+   - Multiple widget formats
+   - Responsive/mobile behavior
+   - Theme customization
+   - External website compatibility
+   - Widget architecture
+
+6. TRADIFY
+   Type: Contract
+   Main areas:
+   - Complex UI implementation
+   - HTML
+   - Tailwind CSS
+   - ~30 pages
+   - Production-quality frontend implementation
+
+7. AEROBIX
+   Type: Contract
+   Main areas:
+   - Fitness clinic
+   - Lead qualification
+   - Middle-of-funnel optimization
+   - Landing page
+   - Value proposition
+   - Lead magnets
+   - Hooking strategies
+   - Call booking
+   - Sales efficiency
+   - Conversion strategy
+
+8. MACRO BOWLS
+   Type: Contract
+   Main areas:
+   - Healthy/high-protein food startup
+   - Meta Ads
+   - Lead generation
+   - Branding
+   - Positioning
+   - UI
+   - Product packaging
+   - Social media branding
+   - Telegram bot
+   - n8n automation
+   - Google Sheets
+   - Role-based internal operations
+   - Shabith KMS collaboration
+
+9. ONE CHAT
+   Type: Personal project
+   Main idea:
+   - "One Chat, Many Languages"
+   - Multilingual chat
+   - User writes in their own language
+   - Recipient receives in their own language
+   - AI-assisted contextual translation
+   - Inspired by living with people from different linguistic
+     and national backgrounds in Dubai
+
+
+============================================================
+IMPORTANT NAMING / FACT CORRECTIONS
+============================================================
+
+- GroupyGo — correct spelling.
+- CapMyLead — correct spelling.
+- Prime Circle uses nas.io.
+- Prime Circle focus is conversion strategy + problem solving.
+- CapMyLead uses Supabase, NOT MongoDB.
+- CapMyLead is 100% AI-assisted/AI-coded.
+- In CapMyLead, my contribution is the engineering/problem-solving
+  direction; AI handled the coding.
+- Reputup's exact production tech stack has not yet been confirmed.
+- widgetify-sample is a public reference/sample repository and
+  should not automatically be treated as the complete Reputup stack.
+- Tradify spelling: T-R-A-D-I-I-F-Y.
+- Aerobix spelling: A-E-R-O-B-I-X.
+- Macro Bowls collaborator: Shabith KMS.
+- Prime Circle abandonment reduction: approximately 33%, NOT 35%.

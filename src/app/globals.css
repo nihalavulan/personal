@@ -1,26 +1,69 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------------------------ */
+/* Editorial design system — warm paper, ink, one restrained accent.   */
+/* ------------------------------------------------------------------ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #f6f3ec; /* warm off-white ground */
+  --paper-2: #efeae0; /* slightly deeper panel */
+  --card: #fbf9f4;
+  --ink: #1b1916; /* near-black, warm */
+  --ink-soft: #57514a; /* secondary text */
+  --ink-faint: #8b847a; /* meta / captions */
+  --line: rgba(27, 25, 22, 0.14);
+  --line-soft: rgba(27, 25, 22, 0.08);
+  --accent: #b6420f; /* burnt sienna */
+  --accent-soft: rgba(182, 66, 15, 0.1);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-line-soft: var(--line-soft);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-feature-settings: "kern", "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Display headlines use the serif with optical sizing. */
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+.eyebrow {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+/* A hairline that reads as editorial rule. */
+.rule {
+  border-top: 1px solid var(--line);
 }
