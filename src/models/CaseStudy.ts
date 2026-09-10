@@ -35,8 +35,8 @@ const MetricSchema = new Schema(
     label: { type: String, required: true }, // "Conversion lift"
     value: { type: String, required: true }, // "+38%"
     note: { type: String },
-    _id: false,
-  }
+  },
+  { _id: false }
 );
 
 const CaseStudySchema = new Schema(
