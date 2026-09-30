@@ -1,15 +1,8 @@
-import Link from "next/link";
+import ProjectList from "@/components/ProjectList";
 import { getProfile } from "@/lib/getProfile";
 import { getProjects } from "@/lib/getBrain";
 
 export const dynamic = "force-dynamic";
-
-const typeLabel: Record<string, string> = {
-  startup: "Startup",
-  contract: "Contract",
-  personal: "Personal",
-  employment: "Employment",
-};
 
 export default async function Home() {
   const [profile, projects] = await Promise.all([getProfile(), getProjects()]);
@@ -87,46 +80,7 @@ export default async function Home() {
           <span className="eyebrow">{projects.length} projects</span>
         </div>
 
-        <ul>
-          {projects.map((p, i) => (
-            <li key={p.slug}>
-              <Link
-                href={`/projects/${p.slug}`}
-                className="group grid grid-cols-[auto_1fr_auto] items-center gap-x-5 gap-y-1 border-b border-line py-7 transition-colors sm:gap-x-10"
-              >
-                <span className="eyebrow tabular-nums text-ink-faint group-hover:text-accent">
-                  {String(i + 1).padStart(2, "0")}
-                </span>
-
-                <div className="flex flex-col gap-1.5">
-                  <span className="font-display text-3xl leading-none tracking-tight transition-transform duration-300 group-hover:translate-x-1 sm:text-5xl">
-                    {p.title}
-                  </span>
-                  <span className="max-w-2xl text-sm text-ink-soft sm:text-base">
-                    {p.summary}
-                  </span>
-                  <div className="mt-1 flex flex-wrap gap-2">
-                    {p.tech.slice(0, 4).map((t) => (
-                      <span key={t} className="eyebrow text-ink-faint">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-4 justify-self-end">
-                  <span className="hidden text-right eyebrow sm:block">
-                    {p.projectType ? typeLabel[p.projectType] : ""}
-                    {p.timeline ? ` · ${p.timeline}` : ""}
-                  </span>
-                  <span className="text-xl text-ink-faint transition-all group-hover:translate-x-1 group-hover:text-accent">
-                    →
-                  </span>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <ProjectList projects={projects} />
       </section>
 
       {/* ---------------------------------------------------------------- */}

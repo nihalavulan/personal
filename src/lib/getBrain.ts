@@ -25,6 +25,29 @@ export interface ProjectView {
   projectType?: string;
   status: string;
   aiTag?: string;
+  platforms: Platform[];
+}
+
+export type Platform = "web" | "mobile" | "automation";
+
+const MOBILE_HINTS = ["react native", "expo", "flutter", "capacitor", "apk", "android", "ios"];
+const AUTOMATION_HINTS = ["n8n", "telegram bot", "meta ads", "funnel", "google sheets"];
+const WEB_HINTS = [
+  "next.js", "react", "html", "tailwind", "framer", "landing page",
+  "javascript", "node.js", "express", "fastapi", "admin panel", "websockets",
+];
+
+function derivePlatforms(tech: string[], tags: string[], override: unknown): Platform[] {
+  if (Array.isArray(override) && override.length) return override as Platform[];
+  const hay = [...tech, ...tags].map((t) => t.toLowerCase());
+  const has = (hints: string[]) => hay.some((h) => hints.some((k) => h.includes(k)));
+  const out: Platform[] = [];
+  // "react" alone is web, but "react native" / "react-native-*" is mobile.
+  const web = hay.map((h) => h.replace(/react[ -]native/g, ""));
+  if (web.some((h) => WEB_HINTS.some((k) => h.includes(k)))) out.push("web");
+  if (has(MOBILE_HINTS)) out.push("mobile");
+  if (has(AUTOMATION_HINTS)) out.push("automation");
+  return out.length ? out : ["web"];
 }
 
 function fmtRange(
@@ -70,6 +93,8 @@ export async function getProjects(): Promise<ProjectView[]> {
 
   return docs.map((d) => {
     const metadata = (d.metadata ?? {}) as Record<string, unknown>;
+    const tags = (d.tags as string[]) ?? [];
+    const tech = (d.tech as string[]) ?? [];
     return {
       title: d.title as string,
       slug: d.slug as string,
@@ -77,12 +102,13 @@ export async function getProjects(): Promise<ProjectView[]> {
       role: d.role as string | undefined,
       org: d.org as string | undefined,
       timeline: d.timeline as string | undefined,
-      tags: (d.tags as string[]) ?? [],
-      tech: (d.tech as string[]) ?? [],
+      tags,
+      tech,
       featured: Boolean(d.featured),
       projectType: metadata.projectType as string | undefined,
       status: (d.status as string) ?? "published",
       aiTag: metadata.aiTag as string | undefined,
+      platforms: derivePlatforms(tech, tags, metadata.platforms),
     };
   });
 }
